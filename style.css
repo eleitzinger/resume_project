@@ -8,6 +8,9 @@ body {
 .Intro {
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center top;
+padding-top: 10%;
+padding-bottom: 15%;
 }
 
 #photo {

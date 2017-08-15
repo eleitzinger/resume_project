@@ -1,7 +1,7 @@
 var resumeData = {
   summary: {    
     background: 'https://www.nationalparks.org/sites/default/files/glacier_60328_1.JPG',
-    profile: '_DSC0041.jpg 2.jpeg',
+    profile: 'profile.jpeg',
     name: 'EJ Leitzinger',
     title: 'Project Manager',
     company: 'In Time Tec',
