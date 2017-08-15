@@ -1,0 +1,101 @@
+body {
+	font-family: "Lato", Sans-Serif, Serif;
+	font-weight: bold;
+}
+
+/* General*/
+
+.Intro {
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#photo {
+	margin-top: 3%;
+}
+
+img {
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,.3), 0 10px 20px 0 rgba(0,0,0,.19);
+	border-radius: 50px;
+}
+
+#information {
+	width: 40%;
+	float: right;
+	background: rgba(225, 225, 225, 0.8);
+	padding-top: 1%;
+	padding-left: 3%;
+	border-radius: 50px;
+	margin-top: 3%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,.3), 0 10px 20px 0 rgba(0,0,0,.19);
+}
+
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* Experience*/
+
+.Work-experience {
+	text-align: center;
+	align-content: center;
+	margin-left: 50%;
+	border-radius: 100px;
+}
+
+ol {
+	list-style-type: none;
+}
+
+.intimetec, .Stampede, .Press-Tribune {
+	background: rgba(225, 225, 225, 3);
+	display: block;
+	text-align: left;
+	margin-top: 25px;
+	padding: 5px 20px;
+	color: #808080;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,.3), 0 10px 20px 0 rgba(0,0,0,.19);
+	border-radius: 5px;
+}
+
+.ITT-content, .Stampede-content, .IPT-content {
+	color: black;
+}
+
+/* Credentials*/
+
+.Credentials {
+	display: block;
+	text-align: left;
+}
+
+.Credential-List {
+	display: block;
+	text-align: left;
+	background: rgba(225, 225, 225, 0.6);
+	margin-left: 3%;
+	padding-left: 5%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	list-style-type: circle;
+	box-shadow: 0 10px 20px 0 rgba(0,0,0,.3), 0 10px 20px 0 rgba(0,0,0,.19);
+	border-radius: 5px;
+}
+
+/* Skills*/
+
+#skills-content li {
+	display: inline-block;
+	list-style-type: none;
+	background-color: #009933;
+	border-radius: 8px;
+	font-size: 1.5em;
+	color: white;
+	margin: 20px 20px 0 0;
+	padding: 5px;
+}
