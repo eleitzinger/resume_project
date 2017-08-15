@@ -1,37 +1,34 @@
-{
-  'summary': {    
-    'background': 'http://i.huffpost.com/gen/2877070/images/n-SCRANTON-PA-628x314.jpg',
-    'profile': 'https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png',
-    'name': 'Michael Gary Scott',
-    'location': 'Scranton, PA',
-    'phone': '(570) 867-5309',
-    'email': 'mscott@dundermifflin.com'
+var resumeData = {
+  summary: {    
+    background: 'https://www.nationalparks.org/sites/default/files/glacier_60328_1.JPG',
+    profile: '_DSC0041.jpg 2.jpeg',
+    name: 'EJ Leitzinger',
+    title: 'Project Manager',
+    company: 'In Time Tec',
+    linkedin: 'https://www.linkedin.com/in/ejleitzinger/',
+    phone: '208.954.3714',
+    email: 'ej.leitzinger@intimetec.com'
   },
-
-  'skills': ['Public Speaking', 'Management', 'Selling', 'Mentorship', 'Personal Coaching', 'Song Writing', 'Joke Telling', 'Story Telling', 'Inspiring Others'],
-
-  'experience': {
-    'experience-title': 'Experience',
-    'dunder-mifflin-1': {
-      'position': 'Regional Manager',
-      'company': 'Dunder Mifflin',
-      'time': '2000 - 2009',
-      'duties': {'Responsible for making the office a place where dreams come true.', 'Threw the most amazing office parties to improve office morale.'},
+  skills: ['Scrum', 'Project Management', 'HTML/CSS', 'Bookkeeping', 'Cash Flow Management', 'Accounts Receivable', 'Communication', 'Teamwork', 'Time Management'],
+  experience: [
+    {
+      organization: 'In Time Tec',
+      title: 'Project Manager',
+      years: '2016 - present',
+      descriptions: ['Planned and coordinated an all day community event for software professionals', 'Responsible for print media and press relations', 'Manage project scope and communicates client needs to development teams']
     },
-    'dunder-mifflin-2': {
-      'position': 'Salesman',
-      'company': 'Dunder Mifflin',
-      'time': '1992 - 2000',
-      'duties': {'Won consecutive "Best Salesman of the Year" awards.', 'Singlehandedly acquired key clients using unorthodox methods.'},
+    {
+      organization: 'Idaho Stampede',
+      title: 'Basketball Operations Intern',
+      years: '2014 - 2015',
+      descriptions: ['Responsible for team equipment, both quantity at hand and cleanliness', 'Coordinated team travel', 'Participated in practices and was responsible for in-game statistics']
     },
-  },
-  'education': {
-    'education-title': 'Education',
-    'scranton-high-school': {
-      'degree': 'High School Diploma',
-      'school': 'Scranton High School',
-      'time': '1978-1982',
-      'accomplishments': {'Scored more goals than anyone in the history of the hockey team.', 'Lost college tuition money in a pyramid scheme.'},
-    },
-  },
-},
+    {
+      organization: 'Idaho Press-Tribune',
+      title: 'Freelance Sports Writer',
+      years: '2013 - present',
+      descriptions: ['Nearly 20 published high school sports articles', 'Events covered include football, volleyball, cross country, and a rodeo', 'Gained valuable experience in published print media and deadlines']
+    }
+  ],
+  credentials: ['Business Management (BS)', 'Business Administration (BS)', 'Certified Agile ScrumMaster', 'Certified Agile Product Owner']
+}
